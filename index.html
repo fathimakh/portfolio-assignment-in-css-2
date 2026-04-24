@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fathima KH - Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- top of the page - my name and nav links -->
+  <header>
+    <h1>Fathima KH</h1>
+    <p>Electronics and Communication Engineer</p>
+    <nav>
+      <a href="#about">About</a> |
+      <a href="#projects">Projects</a> |
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <hr />
+
+  <main>
+
+    <!-- short intro about me with my photo -->
+    <section id="about">
+      <h2>About Me</h2>
+      <img src="images/photo.jpeg" alt="Fathima KH - Electronics and Communication Engineer" width="200" />
+      <p>
+        Hi, I am Fathima KH, an Electronics and Communication Engineering graduate. I am currently focusing on Web Development and learning Full Stack technologies. I enjoy building user-friendly websites and continuously improving my technical and problem-solving skills.
+      </p>
+    </section>
+
+    <hr />
+
+    <!-- listing the projects i have worked on -->
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <article>
+        <h3>IOT Based Pill Dispenser</h3>
+        <p>
+          Developed a smart IoT-enabled pill dispenser with real-time alerts and remote monitoring,
+          using sensors and cloud connectivity to automate medication schedules and improve
+          patient adherence.
+        </p>
+      </article>
+
+      <hr />
+
+      <article>
+        <h3>Automated Primary Health Screening System</h3>
+        <p>
+          Built an automated health screening system using Raspberry Pi with RFID ID, thermal
+          imaging, and load sensors, processing data via OpenCV and sending results to Google
+          Sheets for real-time analysis.
+        </p>
+      </article>
+
+      <hr />
+
+      <article>
+        <h3>Real-Time Patient Screening - IEEE Research Paper</h3>
+        <p>
+          Presented a research paper at the 4th IEEE SENNET-2025 Conference on an embedded IoT
+          platform for real-time thermal and weight monitoring in patient screening at VIT Vellore.
+        </p>
+      </article>
+
+    </section>
+
+    <hr />
+
+    <!-- contact form - all fields are required before submitting -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+
+      <form action="">
+
+        <!-- name field -->
+        <label for="name">Full Name:</label>
+        <br />
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required />
+        <br /><br />
+
+        <!-- email field - browser checks the format automatically -->
+        <label for="email">Email Address:</label>
+        <br />
+        <input type="email" id="email" name="email" placeholder="Enter your email address" required />
+        <br /><br />
+
+        <!-- subject field -->
+        <label for="subject">Subject:</label>
+        <br />
+        <input type="text" id="subject" name="subject" placeholder="Enter the subject" required />
+        <br /><br />
+
+        <!-- message box -->
+        <label for="message">Message:</label>
+        <br />
+        <textarea id="message" name="message" rows="6" cols="50" placeholder="Write your message here..." required></textarea>
+        <br /><br />
+
+        <button type="submit">Send Message</button>
+
+      </form>
+    </section>
+
+  </main>
+
+  <hr />
+
+  <!-- footer with my contact links -->
+  <footer>
+    <p>
+      Email: <a href="mailto:fathimakh07@gmail.com">fathimakh07@gmail.com</a> |
+      LinkedIn: <a href="https://www.linkedin.com/in/fathima-kh-857148326" target="_blank">https://www.linkedin.com/in/fathima-kh-857148326</a>
+    </p>
+  </footer>
+
+</body>
+
+</html>
